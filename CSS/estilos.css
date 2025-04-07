@@ -1,0 +1,119 @@
+nav a:hover {
+    color: #ff7b00;
+    text-decoration: underline;
+}
+footer .text-reset{
+    text-decoration: none;
+}
+footer .text-reset:hover {
+    color: #ff7b00;
+    text-decoration: underline;
+}
+.d-block{
+height: 500px;
+}
+.adopcion .card-img-top{
+    height: 300px;
+    object-fit: contain;
+}
+
+.tarjetasinfo .product-card {
+    position: relative;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tarjetasinfo .product-card img {
+    max-width: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.card-1 { background-image: url(../imagenes/conejosycobayas.jpg); 
+background-repeat: no-repeat;
+background-size: 100%;
+}
+.card-2 {  background-image: url(../imagenes/cubitos.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% }
+.card-3 {  background-image: url(../imagenes/accesoriogatos.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%}
+.btn-link {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+.banner {
+    background: #0a2240;
+    color: white;
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-text {
+    max-width: 50%;
+}
+.banner img {
+    max-width: 40%;
+}
+.btn-primary {
+    background: #f4a823;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.tarjetasinfo .product-card:hover {
+    transform: scale(1.05);
+}
+.tarjetasinfo .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.price {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.installments {
+    color: green;
+}
+
+/* productos css  */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+/* adopcion */
+.adopcion2 .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.adopcion2 .card img {
+    height: 200px;
+}
+.adopcion2 .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
